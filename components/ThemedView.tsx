@@ -9,7 +9,7 @@ import React, { CSSProperties } from "react";
 import { Colors } from "../constants/Colors";
 
 interface Props {
-  style: StyleProp<ViewStyle>;
+  style?: StyleProp<ViewStyle>;
   children: React.ReactNode;
 }
 
